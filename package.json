@@ -1,0 +1,35 @@
+{
+  "name": "NODEJS-MONGODB-HBS-SESSIONS",
+  "version": "1.0.0",
+  "description": "CRUD using nodejs and handlebars - register/login system with sessions",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=prod node src/index.js",
+    "dev": "cross-env NODE_ENV=dev nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.3",
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "express-session": "^1.17.1",
+    "helper-timeago": "^0.1.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.9.18",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "timeago.js": "^4.0.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "handlebars": "^4.5.0",
+    "nodemon": "^2.0.4",
+    "npm-check-updates": "^7.0.0"
+  }
+}
